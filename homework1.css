@@ -1,0 +1,190 @@
+#background{
+    background: linear-gradient(rgb(0,0,0,0.7),rga(0,0,0,0.7), url('./bg.jpg'));
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.login10header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    
+}
+
+.login10header{
+    font-size: 35px;
+    color: white;
+   
+    font-family: 'Noto Sans KR', sans-serif;
+
+
+    font-weight: 400;
+    
+}
+
+.haveanheader{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.havean{
+    font-size: 35px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+#login1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;;
+}#login2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#loginbuttonheader{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.ieye{
+    display: flex;
+    position: absolute;
+    margin-bottom: 150px;
+    margin-left: 1090px;
+    margin-top: -35px;
+    
+}
+
+
+
+#loginbutton{
+    box-sizing: content-box;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    border-style:hidden;
+    background-color:rgb(250, 205, 179);
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+
+
+.inputuser{
+    box-sizing: content-box;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    border-style:hidden;
+    opacity: 0.3;
+    background-color:gray;
+    color: white;
+    text-indent: 20px;
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.inputpass{
+    box-sizing: content-box;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    border-style:hidden;
+    opacity: 0.3;
+    background-color:gray;
+    text-indent: 20px;
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+  
+    
+}
+.inputuser::placeholder{
+    color: white;
+    
+}
+
+.inputpass::placeholder{
+    color: white;
+    
+}
+
+.loginetc{
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.rememberme{
+    display: flex;
+    align-items: center;
+    accent-color: rgb(250, 205, 179);
+    
+}
+
+#remembermeword{
+    color:rgb(250, 205, 179);
+    font-family:  'Noto Sans KR', sans-serif;
+}
+.forget{
+    margin-left: 135px;
+    color: white;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-size: 15px;
+}
+
+.or{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+
+.facebookbox{
+    border-style: none;
+    width: 180px;
+    height: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-radius: 5px;
+    
+}
+
+.checkbox[type='checkbox']{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); 
